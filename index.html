@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Rotina Acessível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="topo">
+    <header>
+        <div class="container">
+            <h1>Minha Rotina Acessível</h1>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="#rotina">Rotina Diária</a></li>
+                    <li><a href="#dicas">Dicas de Comunicação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Seção da Rotina -->
+        <section id="rotina" aria-labelledby="titulo-rotina">
+            <h2 id="titulo-rotina">Minha Rotina Diária</h2>
+            <p class="descricao-secao">Acompanhe as atividades na ordem em que devem ser feitas.</p>
+            
+            <div class="grid-rotina">
+                
+                <!-- Atividade 1 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Acordar e Higiene Pessoal</h3>
+                    <p><strong>Quando:</strong> 07:00 da manhã</p>
+                    <p><strong>Onde:</strong> Quarto e Banheiro</p>
+                    <button class="btn-concluir" aria-label="Marcar Higiene Pessoal como concluída">✓ Concluído</button>
+                </article>
+
+                <!-- Atividade 2 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Tomar Café da Manhã</h3>
+                    <p><strong>Quando:</strong> 07:30 da manhã</p>
+                    <p><strong>Onde:</strong> Cozinha</p>
+                    <button class="btn-concluir" aria-label="Marcar Café da Manhã como concluído">✓ Concluído</button>
+                </article>
+
+                <!-- Atividade 3 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Estudar ou Trabalhar</h3>
+                    <p><strong>Quando:</strong> 08:30 da manhã</p>
+                    <p><strong>Onde:</strong> Mesa do Escritório</p>
+                    <button class="btn-concluir" aria-label="Marcar Estudo ou Trabalho como concluído">✓ Concluído</button>
+                </article>
+
+                <!-- Atividade 4 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Almoçar e Descansar</h3>
+                    <p><strong>Quando:</strong> 12:00 (Meio-dia)</p>
+                    <p><strong>Onde:</strong> Sala de Jantar</p>
+                    <button class="btn-concluir" aria-label="Marcar Almoço como concluído">✓ Concluído</button>
+                </article>
+
+                <!-- Atividade 5 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Tempo Livre (Leitura ou Jogos)</h3>
+                    <p><strong>Quando:</strong> 18:00 da tarde</p>
+                    <p><strong>Onde:</strong> Sala de Estar</p>
+                    <button class="btn-concluir" aria-label="Marcar Tempo Livre como concluído">✓ Concluído</button>
+                </article>
+
+                <!-- Atividade 6 -->
+                <article class="card-atividade">
+                    <h3>O que fazer: Preparar para Dormir</h3>
+                    <p><strong>Quando:</strong> 22:00 da noite</p>
+                    <p><strong>Onde:</strong> Quarto</p>
+                    <button class="btn-concluir" aria-label="Marcar Preparação para Dormir como concluída">✓ Concluído</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção de Dicas de Comunicação -->
+        <section id="dicas" aria-labelledby="titulo-dicas" class="dicas-box">
+            <h2 id="titulo-dicas">Dicas de Comunicação Clara</h2>
+            <p>Para interagir de forma clara e previsível no dia a dia, lembre-se de:</p>
+            <ul>
+                <li><strong>Ser direto:</strong> Use frases curtas e objetivas. Exemplo: "Vamos jantar às 19h".</li>
+                <li><strong>Evitar ambiguidades:</strong> Evite sarcasmo, ironias ou figuras de linguagem soltas.</li>
+                <li><strong>Avisar com antecedência:</strong> Se a rotina precisar mudar, avise o mais rápido possível.</li>
+                <li><strong>Dar tempo de processamento:</strong> Após fazer uma pergunta, aguarde alguns segundos antes de repeti-la.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Projeto: Minha Rotina Acessível</p>
+            <a href="#topo" class="btn-topo">Voltar ao topo ⬆</a>
+        </div>
+    </footer>
+</body>
+</html>
